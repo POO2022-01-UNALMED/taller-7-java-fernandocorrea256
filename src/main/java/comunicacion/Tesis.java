@@ -35,8 +35,8 @@ public class Tesis extends Escrito{
 			this.getAutor() + "\n" +
 			this.getPaginas() + "\n" +
 			this.getIdea() + "\n" +
-			this.getArgumentos(),length + "\n" + 
-			this.getConclusion() + "\n" + 
+			this.getArgumentos().length + "\n" + 
+			this.getConclusion() + "\n" +
 			this.getReferencias();
 	}	
 
@@ -45,7 +45,7 @@ public class Tesis extends Escrito{
 	public void setIdea(String idea) { this.idea = idea; }
 
 	public String[] getArgumentos() { return this.argumentos; }
-	public void setArgumentos(String[] argumentos) { this.argumentos = argumentos}
+	public void setArgumentos(String[] argumentos) { this.argumentos = argumentos; }
 
 	public String getConclusion() { return this.conclusion; }
 	public void setConclusion(String conclusion) { this.conclusion=conclusion; }
